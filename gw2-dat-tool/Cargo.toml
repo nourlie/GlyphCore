@@ -1,0 +1,13 @@
+[package]
+name = "gw2-dat-tool"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+flate2 = "1"
+byteorder = "1"
+clap = { version = "4", features = ["derive"] }
+anyhow = "1"
+crc32fast = "1"
+image = { version = "0.25", default-features = false, features = ["png"] }
+fontdue = "0.9"

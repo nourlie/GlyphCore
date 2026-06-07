@@ -1,0 +1,28 @@
+# Rust build output
+/target
+**/target/
+
+# Game-derived blobs — these are derivatives of ArenaNet's Gw2.dat and are NOT
+# redistributed. Generate them from YOUR OWN Gw2.dat (see version-proxy/blobs/README.md).
+/version-proxy/blobs/afnt_patched.bin
+/version-proxy/blobs/afnt_patched_raw.bin
+/version-proxy/blobs/patch_meta.bin
+
+# Extracted game assets / scratch dumps (never commit copyrighted game data)
+*.dat
+**/patch_output/
+s*.bin
+entry*.bin
+font_afnt.bin
+afnt_backup.bin
+glyph*.bin
+
+# Logs, crash dumps, editor cruft
+*.log
+*.dmp
+.DS_Store
+Thumbs.db
+
+# Reverse-engineering scratch scripts (the cracked algorithms live in the Rust sources)
+/*.py
+/rc4_out.txt
