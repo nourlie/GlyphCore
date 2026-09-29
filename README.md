@@ -47,6 +47,8 @@
 Скачайте **`version.dll`** из [релиза](https://github.com/nourlie/GlyphCore/releases/latest)
 и положите рядом с `Gw2-64.exe`. Запустите игру — кириллица отрисуется.
 
+### Для запуска на Linux требуется в параметры запуска игры в стиме добавить "WINEDLLOVERRIDES="version=n,b" %command%".
+
 ```
 Guild Wars 2\
 ├─ Gw2-64.exe
